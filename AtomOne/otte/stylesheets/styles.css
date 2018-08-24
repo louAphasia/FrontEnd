@@ -1,5 +1,6 @@
 body{
 font-size: 22px;
+background:#e6ccff
 }
 
 a {
@@ -17,5 +18,13 @@ a {
 }
 
 .thumbnail-image {
-  width: 80%
+  display:block;
+  width: 30%
+}
+
+.thumbnail-item {
+  border: 1px solid rgb(100%,100%,100%);
+  /*jakby web browser nie oblsugiwala rgba*/
+  border: 6px solid rgba(100%,50%,100%,0.3);
+
 }
